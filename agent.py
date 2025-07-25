@@ -12,6 +12,9 @@ address = "<your-address>"
 phone = "<your-phonenumber>"
 country = "United States"
 
+if email == "<your-email>":
+    raise ValueError("Please fill in your name & email in the agent.py file")
+
 # Secure vault for the credit card details
 vault = client.Vault("94f42a8f-fd88-4143-991b-9078280230b1")
 # Launch the session & the agent
@@ -29,7 +32,7 @@ with client.Session(browser_type="firefox") as session:
 2. Go to the product page for the cap
 3. Add the item to the cart
 4. Go to the checkout page
-5. Fill the shipping "Email" field with: {email} (don't try to login, just fill this specific email)
+5. Fill the shipping "Email" field with: {email}
 6. Select {country} from the country dropdown
 7. Fill the shipping "Full Name" field with: {name}
 8. Fill the shipping "Street address" field with: {address}
