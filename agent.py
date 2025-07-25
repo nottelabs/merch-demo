@@ -29,7 +29,7 @@ with client.Session(browser_type="firefox") as session:
 3. Add the item to the cart
 4. Go to the checkout page
 5. Fill the shipping "Email" field with: {email}
-6. Select {country} from the country dropdown (or skip if the country is the US)
+6. Select {country} from the country dropdown
 7. Fill the shipping "Full Name" field with: {name}
 8. Fill the shipping "Street address" field with: {address}
 9. Choose the right combobox option for the address. Choosing the right one is important and will fill the remaining fields automatically (i.e state, city, postal code, country). Never use the `fill` action to fill any fields.
