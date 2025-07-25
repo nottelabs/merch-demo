@@ -17,6 +17,8 @@ pip install notte-sdk
 python agent.py
 ```
 
+Don't forget to update your name and shipping address in the script !
+
 ## Links
 - Read Docs → https://docs.notte.cc 
 - Get an API key → https://console.notte.cc 
