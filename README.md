@@ -1,3 +1,14 @@
+<div align="center">
+  <p>
+    The web agent built for <strong>speed</strong>, <strong>cost-efficiency</strong>, <strong>scale</strong>, and <strong>reliability</strong> <br/>
+    → Read more at: <a href="https://github.com/nottelabs/open-operator-evals" target="_blank" rel="noopener noreferrer">open-operator-evals</a> • <a href="https://x.com/nottecore?ref=github" target="_blank" rel="noopener noreferrer">X</a> • <a href="https://www.linkedin.com/company/nottelabsinc/?ref=github" target="_blank" rel="noopener noreferrer">LinkedIn</a> • <a href="https://notte.cc?ref=github" target="_blank" rel="noopener noreferrer">Landing</a> • <a href="https://console.notte.cc/?ref=github" target="_blank" rel="noopener noreferrer">Console</a>
+  </p>
+</div>
+
+<p align="center">
+  <img src="docs/logo/bgd.png" alt="Notte Logo" width="100%">
+</p>
+
 # NotteLabs - Reliable Web Agents
 
 > use our reliable web agent API to order free merch!
