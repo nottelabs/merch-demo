@@ -1,5 +1,6 @@
 # pip install notte-sdk
 from notte_sdk import NotteClient
+from loguru import logger
 
 # Initialize the notte sdk client
 client = NotteClient(api_key="sk-notte-6a0cf6fbeaec6800d882de6c1e2f2966d7b098dbf7ae56fb21785f24f378581a")
@@ -28,7 +29,7 @@ with client.Session(browser_type="firefox") as session:
 2. Go to the product page for the cap
 3. Add the item to the cart
 4. Go to the checkout page
-5. Fill the shipping "Email" field with: {email}
+5. Fill the shipping "Email" field with: {email} (don't try to login, just fill this specific email)
 6. Select {country} from the country dropdown
 7. Fill the shipping "Full Name" field with: {name}
 8. Fill the shipping "Street address" field with: {address}
@@ -37,3 +38,7 @@ with client.Session(browser_type="firefox") as session:
 11. Fill in the credit card details using the provided values
 12. Click on the "Complete Order" button. 
 """)
+    if response.success:
+        logger.info(f"✅ Order placed successfully. Check your email for the order confirmation.")
+    else:
+        logger.error(f"❌ Order failed with the following error: {response.answer}")
