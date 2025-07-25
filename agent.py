@@ -13,7 +13,7 @@ phone = "<your-phonenumber>"
 country = "United States"
 
 if email == "<your-email>":
-    raise ValueError("Please fill in your name & email in the agent.py file")
+    raise ValueError("Please fill in your name, email & shipping address in the agent.py file")
 
 # Secure vault for the credit card details
 vault = client.Vault("94f42a8f-fd88-4143-991b-9078280230b1")
